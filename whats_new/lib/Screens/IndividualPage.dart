@@ -407,6 +407,7 @@ class _IndividualPageState extends State<IndividualPage> {
                           .where('roomId',
                               isEqualTo:
                                   //  'UBQnzsE4LLA4tuIUO7jG')
+
                                   _roomId)
                           .snapshots(),
                       builder: (BuildContext context,
